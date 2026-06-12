@@ -19,4 +19,7 @@ jobs:
 
       - run: npm install
 
+      # Eslint check
+      - run: npm run lint
+
       - run: npm run build
