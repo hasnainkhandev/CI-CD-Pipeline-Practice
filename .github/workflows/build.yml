@@ -22,4 +22,7 @@ jobs:
       # Eslint check
       - run: npm run lint
 
+      # Test
+      - run: npm run test
+
       - run: npm run build
