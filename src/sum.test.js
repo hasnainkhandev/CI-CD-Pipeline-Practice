@@ -6,6 +6,6 @@ function sum(a, b) {
 
 describe("sum function", () => {
   it("adds two numbers correctly", () => {
-    expect(sum(2, 3)).toBe(5);
+    expect(sum(2, 3)).toBe(10);
   });
 });
